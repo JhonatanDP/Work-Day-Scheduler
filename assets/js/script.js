@@ -49,3 +49,83 @@ var hour5 = 17;
 
 var currentHour = moment().format('H');
 
+// 9am 
+if (currentHour < hour9) {
+    $("#9am-task").addClass("future");
+} else if (currentHour > hour9) {
+    $("#9am-task").addClass("past");
+} else if (currentHour = hour9) {
+    $("#9am-task").addClass("present");
+}
+
+// 10am 
+if (currentHour < hour10) {
+    $("#10am-task").addClass("future");
+} else if (currentHour > hour10) {
+    $("#10am-task").addClass("past");
+} else if (currentHour = hour10) {
+    $("#10am-task").addClass("present");
+}
+
+// 11am
+if (currentHour < hour11) {
+    $("#11am-task").addClass("future");
+} else if (currentHour > hour11) {
+    $("#11am-task").addClass("past");
+} else if (currentHour = hour11) {
+    $("#11am-task").addClass("present");
+}
+
+// 12pm
+if (currentHour < hour12) {
+    $("#12pm-task").addClass("future");
+} else if (currentHour > hour12) {
+    $("#12pm-task").addClass("past");
+} else if (currentHour = hour12) {
+    $("#12pm-task").addClass("present");
+}
+
+// 1pm
+if (currentHour < hour1) {
+    $("#1pm-task").addClass("future");
+} else if (currentHour > hour1) {
+    $("#1pm-task").addClass("past");
+} else if (currentHour = hour1) {
+    $("#1pm-task").addClass("present");
+}
+
+// 2pm
+if (currentHour < hour2) {
+    $("#2pm-task").addClass("future");
+} else if (currentHour > hour2) {
+    $("#2pm-task").addClass("past");
+} else if (currentHour = hour2) {
+    $("#2pm-task").addClass("present");
+}
+
+// 3pm
+if (currentHour < hour3) {
+    $("#3pm-task").addClass("future");
+} else if (currentHour > hour3) {
+    $("#3pm-task").addClass("past");
+} else if (currentHour = hour3) {
+    $("#3pm-task").addClass("present");
+}
+
+// 4pm
+if (currentHour < hour4) {
+    $("#4pm-task").addClass("future");
+} else if (currentHour > hour4) {
+    $("#4pm-task").addClass("past");
+} else if (currentHour = hour4) {
+    $("#4pm-task").addClass("present");
+}
+
+// 5pm
+if (currentHour < hour5) {
+    $("#5pm-task").addClass("future");
+} else if (currentHour > hour5) {
+    $("#5pm-task").addClass("past");
+} else if (currentHour = hour5) {
+    $("#5pm-task").addClass("present");
+}
