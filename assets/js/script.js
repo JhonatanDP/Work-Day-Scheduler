@@ -5,29 +5,35 @@ var currentDay = moment().format('dddd, MMMM Do');
 $("#currentDay").html(currentDay);
 
 
-var loadTasks = function() {
-    tasks = JSON.parse(localStorage.getItem("tasks"));
-  
-    // if nothing in localStorage, create a new object to track all task status arrays
-    if (!tasks) {
-      tasks = {
-        task: [],
-        hour: []
-      };
-    }
-  
-    // loop over object properties  
-    $.each(tasks, function(list, arr) {
-      // then loop over sub-array
-      arr.forEach(function(task) {
-        createTask(task.text, task.hour, list);
-      });
-    });
-  };
+$(".saveBtn").on("click", function() {
 
-// var tasks = {
-//     task : "THIS",
-//     time: "9PM"
-// }
+    var task = $(this).siblings(".task-text").val();
+    var time = $(this).parent().attr("id");
 
-// localStorage.setItem("tasks", JSON.stringify(tasks));
+    // save in localStorage
+    localStorage.setItem(time,task);
+});
+
+//load data from localStorage 
+
+//load data for 9am
+$("#9am-row .task-text").val(localStorage.getItem("9am-row"));
+//load data for 10am
+$("#10am-row .task-text").val(localStorage.getItem("10am-row"));
+//load data for 11am
+$("#11am-row .task-text").val(localStorage.getItem("11am-row"));
+//load data for 12pm
+$("#12pm-row .task-text").val(localStorage.getItem("12pm-row"));
+//load data for 1pm
+$("#1pm-row .task-text").val(localStorage.getItem("1pm-row"));
+//load data for 2pm
+$("#2pm-row .task-text").val(localStorage.getItem("2pm-row"));
+//load data for 3pm
+$("#3pm-row .task-text").val(localStorage.getItem("3pm-row"));
+//load data for 4pm
+$("#4pm-row .task-text").val(localStorage.getItem("4pm-row"));
+//load data for 5pm
+$("#5pm-row .task-text").val(localStorage.getItem("5pm-row"));
+
+// converting time and display
+
