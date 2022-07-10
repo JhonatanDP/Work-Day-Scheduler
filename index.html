@@ -18,6 +18,8 @@
       href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/open-iconic/1.1.1/font/css/open-iconic-bootstrap.min.css" />
     <link rel="stylesheet" href="./assets/css/style.css" />
     <title>Work Day Scheduler</title>
   </head>
@@ -28,95 +30,68 @@
       <p id="currentDay" class="lead"></p>
     </header>
     <div class="container">
-        <div class="row">
-          <div class="col-sm-1 text-right" id="hour">
+        <div class="row" id="9am-row">
+          <div class="col-2 col-sm-2 col-lg-1 col-xs-1 hour text-right" id="time 9am">
             9AM
           </div>
-          <div class="col-sm-10" id="task">
-            To save data
-          </div>
-          <button class="col-sm-1 saveBtn">
-          </button>
+          <textarea class="col-8 col-sm-8 col-lg-10 col-xs-10 taskDescription form" id="9am-task"></textarea>
+          <button type="button" class="col-2 col-sm-2 col-lg-1 col-xs-1 saveBtn"><span class="oi oi-clipboard"></span></button>
         </div>
-        <div class="row">
-          <div class="col-sm-1 text-right" id="hour">
-            10AM
+        <div class="row" id="10am-row">
+          <div class="col-2 col-sm-2 col-lg-1 col-xs-1 hour text-right" id="time 10am">
+           10AM
           </div>
-          <div class="col-sm-10" id="task">
-            To save data
-          </div>
-          <button class="col-sm-1 saveBtn">
-          </button>
+          <textarea class="col-8 col-sm-8 col-lg-10 col-xs-10 taskDescription form" id="10am-task"></textarea>
+          <button type="button" class="col-2 col-sm-2 col-lg-1 col-xs-1 saveBtn"><span class="oi oi-clipboard"></span></button>
         </div>
-        <div class="row">
-          <div class="col-sm-1 text-right" id="hour">
-            11AM
+        <div class="row" id="11am-row">
+          <div class="col-2 col-sm-2 col-lg-1 col-xs-1 hour text-right" id="time 11am">
+           11PM
           </div>
-          <div class="col-sm-10" id="task">
-            To save data
-          </div>
-          <button class="col-sm-1 saveBtn">
-          </button>
+          <textarea class="col-8 col-sm-8 col-lg-10 col-xs-10 taskDescription form" id="11am-task"></textarea>
+          <button type="button" class="col-2 col-sm-2 col-lg-1 col-xs-1 saveBtn"><span class="oi oi-clipboard"></span></button>
         </div>
-        <div class="row">
-          <div class="col-sm-1 text-right" id="hour">
+        <div class="row" id="12pm-row">
+          <div class="col-2 col-sm-2 col-lg-1 col-xs-1 hour text-right" id="time 12pm">
             12PM
           </div>
-          <div class="col-sm-10" id="task">
-            To save data
-          </div>
-          <button class="col-sm-1 saveBtn">
-          </button>
+          <textarea class="col-8 col-sm-8 col-lg-10 col-xs-10 taskDescription form" id="12pm-task"></textarea>
+          <button type="button" class="col-2 col-sm-2 col-lg-1 col-xs-1 saveBtn"><span class="oi oi-clipboard"></span></button>
         </div>
-        <div class="row">
-          <div class="col-sm-1 text-right" id="hour">
+        <div class="row" id="1pm-row">
+          <div class="col-2 col-sm-2 col-lg-1 col-xs-1 hour text-right" id="time 1pm">
             1PM
           </div>
-          <div class="col-sm-10" id="task">
-            To save data
-          </div>
-          <button class="col-sm-1 saveBtn">
-          </button>
+          <textarea class="col-8 col-sm-8 col-lg-10 col-xs-10 taskDescription form" id="1pm-task"></textarea>
+          <button type="button" class="col-2 col-sm-2 col-lg-1 col-xs-1 saveBtn"><span class="oi oi-clipboard"></span></button>
         </div>
-        <div class="row">
-          <div class="col-sm-1 text-right" id="hour">
+        <div class="row" id="2pm-row">
+          <div class="col-2 col-sm-2 col-lg-1 col-xs-1 hour text-right" id="time 2pm">
             2PM
           </div>
-          <div class="col-sm-10" id="task">
-            To save data
-          </div>
-          <button class="col-sm-1 saveBtn">
-          </button>
+          <textarea class="col-8 col-sm-8 col-lg-10 col-xs-10 taskDescription form" id="2pm-task"></textarea>
+          <button type="button" class="col-2 col-sm-2 col-lg-1 col-xs-1 saveBtn"><span class="oi oi-clipboard"></span></button>
         </div>
-        <div class="row">
-          <div class="col-sm-1 text-right" id="hour">
+        <div class="row" id="3pm-row">
+          <div class="col-2 col-sm-2 col-lg-1 col-xs-1 hour text-right" id="time 3pm">
             3PM
           </div>
-          <div class="col-sm-10" id="task">
-            To save data
-          </div>
-          <button class="col-sm-1 saveBtn">
-          </button>
+          <textarea class="col-8 col-sm-8 col-lg-10 col-xs-10 taskDescription form" id="3pm-task"></textarea>
+          <button type="button" class="col-2 col-sm-2 col-lg-1 col-xs-1 saveBtn"><span class="oi oi-clipboard"></span></button>
         </div>
-        <div class="row">
-          <div class="col-sm-1 text-right" id="hour">
+        <div class="row" id="4pm-row">
+          <div class="col-2 col-sm-2 col-lg-1 col-xs-1 hour text-right" id="time 4pm">
             4PM
           </div>
-          <div class="col-sm-10" id="task">
-            To save data
-          </div>
-          <button class="col-sm-1 saveBtn">
-          </button>
+          <textarea class="col-8 col-sm-8 col-lg-10 col-xs-10 taskDescription form" id="4pm-task"></textarea>
+          <button type="button" class="col-2 col-sm-2 col-lg-1 col-xs-1 saveBtn"><span class="oi oi-clipboard"></span></button>
         </div>
-        <div class="row">
-          <div class="col-sm-1 text-right" id="hour">
+        <div class="row" id="5pm-row">
+          <div class="col-2 col-sm-2 col-lg-1 col-xs-1 hour text-right" id="time 5pm">
             5PM
           </div>
-          <div class="col-sm-10" id="task">
-            To save data
-          </div>
-          <button class="col-sm-1 saveBtn">
-          </button>
+          <textarea class="col-8 col-sm-8 col-lg-10 col-xs-10 taskDescription form" id="5pm-task"></textarea>
+          <button type="button" class="col-2 col-sm-2 col-lg-1 col-xs-1 saveBtn"><span class="oi oi-clipboard"></span></button>
         </div>
       </div>
       
@@ -126,111 +101,3 @@
     <script src="./assets/js/script.js"></script>
   </body>
 </html>
-
-<!-- <div class="row">
-  <div class="col">
-    <div class="row">
-      <div class="col-2 col-sm-2 col-md-2 col-lg-2">
-         <p class="h6">9AM</p>
-      </div>
-      <div class="col-6 col-sm-6 col-md-6 col-lg-6" >
-        <p>TEST</p>
-      </div>
-      <div  class="col-2 col-sm-2 col-md-2 col-lg-2">
-    <button>ICON</button>
-    </div>
-  </div>
-  </div>
-  <div class="col">
-    <div class="row">
-      <div class="col-2 col-sm-2 col-md-2 col-lg-2">
-         <p class="h6">9AM</p>
-      </div>
-      <div class="col-6 col-sm-6 col-md-6 col-lg-6" >
-        <p>TEST</p>
-      </div>
-      <div  class="col-2 col-sm-2 col-md-2 col-lg-2">
-    <button>ICON</button>
-    </div>
-  </div>
-  </div>
-  <div class="col">
-    <div class="row">
-      <div class="col-2 col-sm-2 col-md-2 col-lg-2">
-         <p class="h6">9AM</p>
-      </div>
-      <div class="col-6 col-sm-6 col-md-6 col-lg-6" >
-        <p>TEST</p>
-      </div>
-      <div  class="col-2 col-sm-2 col-md-2 col-lg-2">
-    <button>ICON</button>
-    </div>
-  </div>
-  </div>
-  <div class="col">
-    <div class="row">
-      <div class="col-2 col-sm-2 col-md-2 col-lg-2">
-         <p class="h6">9AM</p>
-      </div>
-      <div class="col-6 col-sm-6 col-md-6 col-lg-6" >
-        <p>TEST</p>
-      </div>
-      <div  class="col-2 col-sm-2 col-md-2 col-lg-2">
-    <button>ICON</button>
-    </div>
-  </div>
-  </div>
-  <div class="col">
-    <div class="row">
-      <div class="col-2 col-sm-2 col-md-2 col-lg-2">
-         <p class="h6">9AM</p>
-      </div>
-      <div class="col-6 col-sm-6 col-md-6 col-lg-6" >
-        <p>TEST</p>
-      </div>
-      <div  class="col-2 col-sm-2 col-md-2 col-lg-2">
-    <button>ICON</button>
-    </div>
-  </div>
-  </div>
-  <div class="col">
-    <div class="row">
-      <div class="col-2 col-sm-2 col-md-2 col-lg-2">
-         <p class="h6">9AM</p>
-      </div>
-      <div class="col-6 col-sm-6 col-md-6 col-lg-6" >
-        <p>TEST</p>
-      </div>
-      <div  class="col-2 col-sm-2 col-md-2 col-lg-2">
-    <button>ICON</button>
-    </div>
-  </div>
-  </div>
-  <div class="col">
-    <div class="row">
-      <div class="col-2 col-sm-2 col-md-2 col-lg-2">
-         <p class="h6">9AM</p>
-      </div>
-      <div class="col-6 col-sm-6 col-md-6 col-lg-6" >
-        <p>TEST</p>
-      </div>
-      <div  class="col-2 col-sm-2 col-md-2 col-lg-2">
-    <button>ICON</button>
-    </div>
-  </div>
-  </div>
-  <div class="col">
-    <div class="row">
-      <div class="col-2 col-sm-2 col-md-2 col-lg-2">
-         <p class="h6">9AM</p>
-      </div>
-      <div class="col-6 col-sm-6 col-md-6 col-lg-6" >
-        <p>TEST</p>
-      </div>
-      <div  class="col-2 col-sm-2 col-md-2 col-lg-2">
-    <button>ICON</button>
-    </div>
-  </div>
-  </div>
-</div>
-</div> -->
