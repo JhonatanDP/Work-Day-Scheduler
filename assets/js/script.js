@@ -1,5 +1,3 @@
-var tasks = {};
-
 
 var currentDay = moment().format('dddd, MMMM Do');
 $("#currentDay").html(currentDay);
