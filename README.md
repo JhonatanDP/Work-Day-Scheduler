@@ -1,7 +1,7 @@
 # Work-Day-Scheduler
 
-Project Repository address: https://github.com/JhonatanDP/Work-Day-Scheduler
-Project live web page: https://jhonatandp.github.io/Work-Day-Scheduler/
+- Project Repository address: https://github.com/JhonatanDP/Work-Day-Scheduler
+- Project live web page: https://jhonatandp.github.io/Work-Day-Scheduler/
 
 ## Full Site
 ![_Users_jhonatandiaz_Desktop_Bootcamp_Modules_Module-05_Challenge_work-day-scheduler_index html](https://user-images.githubusercontent.com/106892660/178174969-c0925ee6-db88-484f-9bf3-5666fc648ce9.png)
